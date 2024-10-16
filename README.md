@@ -2,7 +2,7 @@
 
 
 ## About a project
-Scrape an html website for its logo text/name and telephone number
+Scraping an html website for its logo text/name and telephone number
 
 
 ## Requirements
@@ -34,6 +34,12 @@ Create a Virtual Environment
 
 ```
 python3 -m venv venv
+```
+
+On Linux
+
+```
+source venv/bin/activate
 ```
 
 On Windows

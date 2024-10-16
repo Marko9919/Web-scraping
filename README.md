@@ -32,20 +32,20 @@ python -m venv --help # For Windows
 ```
 
 
-On Windows
+Check if pip is installed:
 
 ```
-python --version
+pip --version
 ```
 
-If not installed, use this command(Ubuntu):
+Check if virtual environment is installed:
 
 ```
-sudo apt install python3
+python3 -m venv --help # For Linux
 ```
-
-For windows and mac dowonload and install from: 
-https://www.python.org/
+```
+python -m venv --help # For Windows
+```
 
 
 ## Setup instructions
@@ -53,6 +53,8 @@ Clone the repository
 
 ```
 git clone git@github.com:Marko9919/Web-scraping.git
+```
+```
 cd Web-scraping
 ```
 
@@ -80,23 +82,16 @@ Install Project Dependencies
 pip install -r requirements.txt
 ```
 
-Running the Project on Linux
+Running the Project
 
 ```
 python3 example.py # For Linux
 ```
+
 ```
 python example.py # For Windows
 ```
-<<<<<<< HEAD
 
-Running the Project on Windows
-
-```
-python example.py
-```
-=======
->>>>>>> ef7b5c5 (Web scraping: Scrape for name and tel. number)
 
 ## Deactivating the Virtual Environment
 

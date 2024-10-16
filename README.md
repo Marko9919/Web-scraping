@@ -6,10 +6,19 @@ Scraping an html website for its logo text/name and telephone number
 
 
 ## Requirements
-Make sure you have Python3.x installed on your system. You can check if Python is installed by running:
+Make sure you have Python3.x, pip and virtual environment installed on your system. 
+You can check if Python is installed by running:
+
+On Linux
 
 ```
 python3 --version
+```
+
+On Windows
+
+```
+python --version
 ```
 
 If not installed, use this command(Ubuntu):
@@ -54,12 +63,17 @@ Install Project Dependencies
 pip install -r requirements.txt
 ```
 
-Running the Project
+Running the Project on Linux
 
 ```
 python3 example.py
 ```
 
+Running the Project on Windows
+
+```
+python example.py
+```
 
 ## Deactivating the Virtual Environment
 

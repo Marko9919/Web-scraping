@@ -32,22 +32,6 @@ python -m venv --help # For Windows
 ```
 
 
-Check if pip is installed:
-
-```
-pip --version
-```
-
-Check if virtual environment is installed:
-
-```
-python3 -m venv --help # For Linux
-```
-```
-python -m venv --help # For Windows
-```
-
-
 ## Setup instructions
 Clone the repository
 

@@ -7,13 +7,30 @@ Scraping an html website for its logo text/name and telephone number
 
 ## Requirements
 Make sure you have Python3.x, pip and virtual environment installed on your system. 
-You can check if Python is installed by running:
-
-On Linux
+Check if Python is installed:
 
 ```
-python3 --version
+python3 --version # For Linux
 ```
+```
+python --version # For Windows
+```
+
+Check if pip is installed:
+
+```
+pip --version
+```
+
+Check if virtual environment is installed:
+
+```
+python3 -m venv --help # For Linux
+```
+```
+python -m venv --help # For Windows
+```
+
 
 On Windows
 
@@ -42,19 +59,19 @@ cd Web-scraping
 Create a Virtual Environment
 
 ```
-python3 -m venv venv
+python3 -m venv venv # For Linux
+```
+```
+python -m venv venv # For Windows
 ```
 
-On Linux
+Activate virtual environment
 
 ```
-source venv/bin/activate
+source venv/bin/activate # For Linux
 ```
-
-On Windows
-
 ```
-.\venv\Scripts\activate
+.\venv\Scripts\activate # For Windows
 ```
 
 Install Project Dependencies
@@ -66,14 +83,20 @@ pip install -r requirements.txt
 Running the Project on Linux
 
 ```
-python3 example.py
+python3 example.py # For Linux
 ```
+```
+python example.py # For Windows
+```
+<<<<<<< HEAD
 
 Running the Project on Windows
 
 ```
 python example.py
 ```
+=======
+>>>>>>> ef7b5c5 (Web scraping: Scrape for name and tel. number)
 
 ## Deactivating the Virtual Environment
 
